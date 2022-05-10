@@ -21,8 +21,14 @@ Compiled Wed 18-Jul-07 04:52 by pt_team
 3. A processzor típusa
 4. Az ezközön található portok és azoknak sebességük (ebben az ehelyzetben a **FastEthernet/IEEE 802.3** sebessége *100Mbit/s*)
 5. Az **NVRAM** mérete (itt tárolja az olvasható szöveges konfigurációt)
-6. ---------------
+6. ***Megkérdezére vár***
 7. Az eszköz operációs rendszerének adatai
 8. Itt lehet segítséget kérni, persze nem ingyen
 9. A szerzői jog
 10. Mikor lett lefordítva utoljára binárisra
+
+## Alap tudni valók
+```
+Router>
+```
+Ezt promtnak nevezzük, ahol az eszköz hoszt neve **(hostname)** jelenik meg
