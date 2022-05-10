@@ -27,12 +27,12 @@ Compiled Wed 18-Jul-07 04:52 by pt_team
 
 ## Alap tudni valók
   A Command Line konfigurációt követően olvasható szöveges található a konfiguráció ezt az eszköz a **NVRAM**-ban tárolja el.
----
+
 ```
 Router>
 ```
   Ezt promtnak nevezzük, ahol az eszköz hoszt neve **(hostname)** jelenik meg.
----
+
   Ha valamelyik parancsból legalább 2 vagy 3 karaktert beírtunk, akkor nyomhatunk egy *tab* billentyűt, ami automatikusan kiegészíti a parancsot (ez nem mindig igaz). Egy jó ellenőrzés az a legtöbb esetben, ha beírunk a parancsból 2/3 karaktert és, amikor nyomunk egy *tab* billentyűt és nem egészíti ki, akkor nagy valószínűséggel rossz helyen vagyunk. 
 
 ## Parancsok és azok mit csinálnak
@@ -43,7 +43,7 @@ Router>enable       ; vagy röviden csak 'Router>ena'
 Router#
 ```
 ### show, sh
-  Ezt a parancsot csak is **privilegizált módban** használhatjuk ez, ha egy parancsot írunk mögé megmutatja az ahhoz a parancshoz tartozó információkat. Ha egy *?*-et teszünk a **show** parancs után, akkor az megmutatja az összes parancsot amit használhatunk.
+  Ezt a parancsot csak is **privilegizált módban** használhatjuk. Ennek, ha egy parancsot írunk mögé, akkor megmutatja az ahhoz a parancshoz tartozó információkat. Ha egy *?*-et teszünk a **show** parancs után, akkor az megmutatja az összes parancsot amit használhatunk.
 ```
 Router>ena
 Router#show ?       ; vagy röviden csak 'Router#sh'
@@ -91,3 +91,4 @@ no ipv6 cef
   A *!* 10 ms idő várakozást jelent
 
 ### configuration terminal, conf t
+  Ezt a parancsot csak is **privilegizált módban** használhatjuk. Ezzel a  paranccsal tudunkbelépni a konfigurációs terminálba, ahol
