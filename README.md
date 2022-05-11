@@ -91,4 +91,11 @@ no ipv6 cef
   A *!* 10 ms idő várakozást jelent
 
 ### configuration terminal, conf t
-  Ezt a parancsot csak is **privilegizált módban** használhatjuk. Ezzel a  paranccsal tudunkbelépni a konfigurációs terminálba, ahol
+  Ezt a parancsot csak is **privilegizált módban** használhatjuk. Ezzel a  paranccsal tudunkbelépni a konfigurációs terminálba, ahol konfigurálni tudjuk az esztközt. Onnan tudjuk, hogy a **konfigurációs móban** vagyunk, hogy a **hostname** útán zárójelek között ott van, hogy *config*
+  
+```
+Router>ena
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+```
