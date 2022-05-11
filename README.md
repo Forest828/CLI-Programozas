@@ -99,3 +99,17 @@ Router#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
 Router(config)#
 ```
+
+### exit
+  Ezzel a parancsal tudunk vissza lépni a **konfigurációs móból** **privilegizált módba**.
+
+```
+Router>ena
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#exit
+Router#
+```
+
+### 
+
