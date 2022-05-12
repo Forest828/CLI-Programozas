@@ -101,7 +101,7 @@ Router(config)#
 ```
 
 ### exit
-  Ezzel a parancsal tudunk vissza lépni a **konfigurációs móból** **privilegizált módba**.
+  Ezzel a parancsal tudunk vissza lépni a módokban.
 
 ```
 Router>ena
